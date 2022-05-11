@@ -1,0 +1,146 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 0a3cc030-c9dd-4d74-9d50-715ed2b361a2)
+
+  (paper "USLetter")
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000061ca867e"
+      (reference "#PWR01") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061cb66cd"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061d52d51"
+      (reference "#PWR03") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061df362d"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061d78dec"
+      (reference "#PWR05") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac3d"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b537572"
+      (reference "#PWR015") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac40"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b632bec"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005b632c28"
+      (reference "#PWR018") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061de7aa3"
+      (reference "C1") (unit 1) (value "0.1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061e02231"
+      (reference "C2") (unit 1) (value "0.1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b632b84"
+      (reference "C11") (unit 1) (value "0.1µF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac1d"
+      (reference "D10") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac1f"
+      (reference "D11") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b53538e"
+      (reference "D12") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac22"
+      (reference "D13") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac25"
+      (reference "D14") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac27"
+      (reference "D15") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b535434"
+      (reference "D16") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005b535463"
+      (reference "D17") (unit 1) (value "RED") (footprint "LED_THT:LED_D5.0mm")
+    )
+    (path "/00000000-0000-0000-0000-000061d985af"
+      (reference "H1") (unit 1) (value "MountingHole1") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061d99159"
+      (reference "H2") (unit 1) (value "MountingHole2") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061d9f910"
+      (reference "H3") (unit 1) (value "MountingHole3") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061d9f916"
+      (reference "H4") (unit 1) (value "MountingHole4") (footprint "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad")
+    )
+    (path "/00000000-0000-0000-0000-000061e4289e"
+      (reference "J1") (unit 1) (value "BUS") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061ef7eaa"
+      (reference "J2") (unit 1) (value "CLR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061eac374"
+      (reference "J3") (unit 1) (value "CLK") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061f08deb"
+      (reference "J4") (unit 1) (value "~RI") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061f1f7e4"
+      (reference "J5") (unit 1) (value "~RO") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061e98b3d"
+      (reference "J6") (unit 1) (value "DATA") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061caba20"
+      (reference "J7") (unit 1) (value "CONN_PWR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac2d"
+      (reference "R24") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac2f"
+      (reference "R25") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b535b5b"
+      (reference "R26") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b535b97"
+      (reference "R27") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac35"
+      (reference "R28") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b535c1a"
+      (reference "R29") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b61ac39"
+      (reference "R30") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005b535ca5"
+      (reference "R31") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061bfc68d"
+      (reference "U1") (unit 1) (value "74HC245") (footprint "Package_DIP:DIP-20_W7.62mm")
+    )
+    (path "/00000000-0000-0000-0000-000061cc38fd"
+      (reference "U2") (unit 1) (value "74HC173") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+    (path "/00000000-0000-0000-0000-000061d78de6"
+      (reference "U3") (unit 1) (value "74HC173") (footprint "Package_DIP:DIP-16_W7.62mm")
+    )
+  )
+)
