@@ -22,12 +22,12 @@
 
 | Opcode | Assembly | Arguments | Description                                             |
 |--------|:--------:|:----------|:--------------------------------------------------------|
-| 0x11   |   PUSH   | Rra       | Write Rra to stack, decrement stack pointer             |
-| 0x12   |   POP    | Rwa       | Copy value from stack into Rwa, increment stack pointer |
-| 0x13   |   PEEK   | Rwa       | Copy value from stack into Rwa                          |
-| 0x14   |   MOV    | Rra, Rwa  | Copy Rra to Rwa                                         |
-| 0x15   |   MEMW   | Rra, D8   | Copy Rra to memory address Ah                           |
-| 0x16   |   MEML   | Rwa, D8   | Copy memory address Ah to Rwa                           |
+| 0x10   |   PUSH   | Rra       | Write Rra to stack, decrement stack pointer             |
+| 0x11   |   POP    | Rwa       | Copy value from stack into Rwa, increment stack pointer |
+| 0x12   |   PEEK   | Rwa       | Copy value from stack into Rwa                          |
+| 0x13   |   MOV    | Rra, Rwa  | Copy Rra to Rwa                                         |
+| 0x14   |   MEMW   | Rra, D8   | Copy Rra to memory address Ah                           |
+| 0x15   |   MEML   | Rwa, D8   | Copy memory address Ah to Rwa                           |
 
 ## Arithmetic 0x20 - 0x2F
 
@@ -51,10 +51,10 @@
 
 | Opcode | Assembly | Arguments | Description              |
 |--------|:--------:|:----------|:-------------------------|
-| 0x30   |   JMP    | D16      | Unconditional jump       |
-| 0x31   |    JC    | D16      | Jump if carry bit is set |
-| 0x32   |    JZ    | D16      | Jump if zero bit is set  |
-| 0x32   |    JN    | D16      | Jump if negative         |
+| 0x30   |   JMP    | D16       | Unconditional jump       |
+| 0x31   |    JC    | D16       | Jump if carry bit is set |
+| 0x32   |    JZ    | D16       | Jump if zero bit is set  |
+| 0x33   |    JN    | D16       | Jump if negative         |
 
 ## CPU Flags
 
