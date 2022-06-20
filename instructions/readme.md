@@ -1,16 +1,21 @@
+This folder contains both the list of instruction, as well as an FPGA implementation on an iCE40HX8K-CT256.
+
+
+# Instructions
+
 ## Layout
 
 - Most Significant 8-bits reserved for instruction
 - Least Significant 16-bits reserved for instruction arguments
 
-# Instructions
+## Instructions
 
 - Rra/Rrb: any readable register address
 - Rwa/Rwb: any writable register address
 - D16: 16-bit address
 - D8: 8-bit address
 
-## Miscellaneous 0x00 - 0x0F
+### Miscellaneous 0x00 - 0x0F
 
 | Opcode | Assembly  | Arguments | Description            |
 |--------|:---------:|:----------|:-----------------------|
@@ -18,7 +23,7 @@
 | 0x01   | IMMEDIATE | Rwa       | Load constant into Rwa |
 | 0xFF   |    HLT    |           | No operation           |
 
-## Transfer 0x10 - 0x1F
+### Transfer 0x10 - 0x1F
 
 | Opcode | Assembly | Arguments | Description                                             |
 |--------|:--------:|:----------|:--------------------------------------------------------|
@@ -29,7 +34,7 @@
 | 0x14   |   MEMW   | Rra, D8   | Copy Rra to memory address Ah                           |
 | 0x15   |   MEML   | Rwa, D8   | Copy memory address Ah to Rwa                           |
 
-## Arithmetic 0x20 - 0x2F
+### Arithmetic 0x20 - 0x2F
 
 - Arithmetic results are stored in ALU Register
 
@@ -45,9 +50,7 @@
 | 0x27   |   LSL    | Rra       | Logical left shift Rra by 1     |
 | 0x28   |   LSR    | Rra       | Logical light shift Rra by 1    |
 
-## Branch/Jump 0x30-0x3F
-
-- Arithmetic results are stored in ALU Register
+### Branch/Jump 0x30-0x3F
 
 | Opcode | Assembly | Arguments | Description              |
 |--------|:--------:|:----------|:-------------------------|
@@ -56,7 +59,7 @@
 | 0x32   |    JZ    | D16       | Jump if zero bit is set  |
 | 0x33   |    JN    | D16       | Jump if negative         |
 
-## CPU Flags
+### CPU Flags
 
 | Short |     Name      |
 |-------|:-------------:|
