@@ -15,15 +15,15 @@ This folder contains both the list of instruction, as well as an FPGA implementa
 - D16: 16-bit address
 - D8: 8-bit address
 
-### Miscellaneous 0x00 - 0x0F
+### Miscellaneous Instructions
 
 | Opcode | Assembly  | Arguments | Description            |
 |--------|:---------:|:----------|:-----------------------|
 | 0x00   |    NOP    |           | No operation           |
-| 0x01   | IMMEDIATE | Rwa       | Load constant into Rwa |
+| 0x11   | IMMEDIATE | Rwa       | Load constant into Rwa |
 | 0xFF   |    HLT    |           | No operation           |
 
-### Transfer 0x10 - 0x1F
+### Transfer 0x20 - 0x3F
 
 | Opcode | Assembly | Arguments | Description                                             |
 |--------|:--------:|:----------|:--------------------------------------------------------|
@@ -34,7 +34,7 @@ This folder contains both the list of instruction, as well as an FPGA implementa
 | 0x24   |   MEMW   | Rra, D8   | Copy Rra to memory address Ah                           |
 | 0x25   |   MEML   | Rwa, D8   | Copy memory address Ah to Rwa                           |
 
-### Arithmetic 0x20 - 0x2F
+### Arithmetic 0x40 - 0x5F
 
 - Arithmetic results are stored in ALU Register
 
@@ -50,7 +50,7 @@ This folder contains both the list of instruction, as well as an FPGA implementa
 | 0x47   |   LSL    | Rra       | Logical left shift Rra by 1     |
 | 0x48   |   LSR    | Rra       | Logical light shift Rra by 1    |
 
-### Branch/Jump 0x30-0x3F
+### Branch/Jump 0x60-0x7F
 
 | Opcode | Assembly | Arguments | Description              |
 |--------|:--------:|:----------|:-------------------------|
