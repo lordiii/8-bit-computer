@@ -8,7 +8,7 @@ This folder contains both the list of instruction, as well as an FPGA implementa
 - Most Significant 8-bits reserved for instruction
 - Least Significant 16-bits reserved for instruction arguments
 
-## Instructions
+## Instruction Groups
 
 - Rra/Rrb: any readable register address
 - Rwa/Rwb: any writable register address
@@ -23,7 +23,7 @@ This folder contains both the list of instruction, as well as an FPGA implementa
 | 0x11   | IMMEDIATE | Rwa       | Load constant into Rwa |
 | 0xFF   |    HLT    |           | No operation           |
 
-### Transfer 0x20 - 0x3F
+### Transfer Instructions 0x20 - 0x3F
 
 | Opcode | Assembly | Arguments | Description                                             |
 |--------|:--------:|:----------|:--------------------------------------------------------|
@@ -31,10 +31,10 @@ This folder contains both the list of instruction, as well as an FPGA implementa
 | 0x21   |   POP    | Rwa       | Copy value from stack into Rwa, increment stack pointer |
 | 0x22   |   PEEK   | Rwa       | Copy value from stack into Rwa                          |
 | 0x23   |   MOV    | Rra, Rwa  | Copy Rra to Rwa                                         |
-| 0x24   |   MEMW   | Rra, D8   | Copy Rra to memory address Ah                           |
-| 0x25   |   MEML   | Rwa, D8   | Copy memory address Ah to Rwa                           |
+| 0x24   |   MEMW   | D16       | Copy R0 to memory address D16                           |
+| 0x25   |   MEML   | D16       | Copy memory address D16 to R0                           |
 
-### Arithmetic 0x40 - 0x5F
+### Arithmetic Instructions 0x40 - 0x5F
 
 - Arithmetic results are stored in ALU Register
 
@@ -50,7 +50,7 @@ This folder contains both the list of instruction, as well as an FPGA implementa
 | 0x47   |   LSL    | Rra       | Logical left shift Rra by 1     |
 | 0x48   |   LSR    | Rra       | Logical light shift Rra by 1    |
 
-### Branch/Jump 0x60-0x7F
+### Branch/Jump Instructions 0x60-0x7F
 
 | Opcode | Assembly | Arguments | Description              |
 |--------|:--------:|:----------|:-------------------------|
