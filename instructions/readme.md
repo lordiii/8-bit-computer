@@ -1,4 +1,4 @@
-This folder contains both the list of instruction, as well as an FPGA implementation on an iCE40HX8K-CT256.
+aThis folder contains both the list of instruction, as well as an FPGA implementation on an iCE40HX8K-CT256.
 
 
 # Instructions
