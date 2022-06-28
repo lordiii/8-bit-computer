@@ -25,4 +25,5 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
+!drawio.xml
 *.csv
