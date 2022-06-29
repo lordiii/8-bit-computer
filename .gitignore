@@ -27,3 +27,7 @@ fp-info-cache
 *.xml
 !drawio.xml
 *.csv
+
+# ignore gerber files
+gerber/
+gerber.zip
